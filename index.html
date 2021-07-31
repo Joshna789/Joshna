@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <section>
+      <div class="bannervedio" id="slideshow">
+          <video src="./images/20210730_1440p(4).mp4" autoplay muted loop class="active" ></video>
+      </div>
+        <div class="container">
+            <header id="navbar">
+                <a href="" class="logo">JOSHNA.com</a>
+                <ul>
+                    <li><a href="./index.html" class="active">HOME</a></li>
+                    <li><a href="./skills.html">SKILLS</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <!-- <li><a href="">CONTACT</a></li> -->
+                    
+                </ul>
+                <span class="menu" onclick="togglemenu();"></span>
+            </header>
+            <div class="content">
+                <div class="bannerText">
+                    <div class="active">
+                        <h2>Hellow</h2>
+                        <h3>Welcome to my <br> portfolio</h3>
+                        <br>
+                        <p>Nice to meet you, Myself Maria Joshna, Medical student pursuing Bachelor of Ayurveda, Medicine and Surgery</p>
+                    </div>
+                </div>
+            </div>
+     
+            </div>
+    </section>
+    <script>
+        function togglemenu(){
+            const menu = document.querySelector('.menu');
+            const navbar = document.getElementById('navbar');
+            menu.classList.toggle('active');
+            navbar.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>

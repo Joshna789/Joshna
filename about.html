@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./css/about.css">
+</head>
+<body>
+
+
+
+        <div class="section">
+
+            <div class="container">
+                <header id="navbar">
+                    <a href="" class="logo">JOSHNA.com</a>
+                    <ul>
+                        <li><a href="./index.html" class="active">Home</a></li>
+                        <li><a href="./skills.html">skills</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <!-- <li><a href="">Home</a></li> -->
+                    </ul>
+                    <span class="menu" onclick="togglemenu();"></span>
+                </header>
+                <div class="content-section">
+                    <div class="title">
+                        <h1>About</h1>
+                    </div>
+                    <div class="content">
+                        <h3>Iam Maria Joshna, Ayurvedivc student</h3>
+                        <p>Myself 1st year BAMS student pursuing bachelor's degree in BAMS at Muniyal Institution of Ayurveda Medical Science. Welcoming and confident  personality with excellent communication skills. Being an empath, I was naturally drwan towards pursuing a carrer in Medicine.I'm passionate about providing quality patient care through disease management and pioneering medical reasearch.  </p>
+                        <div class="button">
+                            <a href="" class="btn">My Gallery</a>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="https://instagram.com/_j_o_s_h_n_a_?utm_medium=copy_link" target="_blank"><img src="./images/instgram.png" class="img" alt=""></a>
+                        <!-- <a href="https://www.linkedin.com/in/vimal-shetty-97b767185"><img src="./images/facebook.png" class="img" alt=""></a> -->
+                        <a href="https://api.whatsapp.com/send?phone=+918792602569" target="_blank"><img src="./images/whatsapp.png" class="img" alt=""></a>
+                        <a href="mailto:joshnamudhupunnakle@gmail.com" target="_blank"><img src="./images/email.png" class="img" alt=""></a>
+                        <a href="Tel:+918792602569" target="_blank"><img src="./images/call.png" class="img" alt=""></a>
+                        
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="./images/jo15.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function togglemenu(){
+            const menu = document.querySelector('.menu');
+            const navbar = document.getElementById('navbar');
+            menu.classList.toggle('active');
+            navbar.classList.toggle('active');
+
+        }
+    </script>
+</body>
+</html>

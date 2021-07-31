@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <div class="container">
+
+        <header id="navbar">
+            <a href="" class="logo">World</a>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">skills</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+            <span class="menu" onclick="togglemenu();"></span>
+        </header>
+        <div class="box">
+            <span style="--i:1"><img src="./images/gallery/jo1.jpg" alt=""></span>
+            <span style="--i:2"><img src="./images/gallery/jo2.jpg" alt=""></span>
+            <span style="--i:3"><img src="./images/gallery/jo3.jpg" alt=""></span>
+            <span style="--i:4"><img src="./images/gallery/jo4.jpg" alt=""></span>
+            <span style="--i:5"><img src="./images/gallery/jo5.jpg" alt=""></span>
+            <span style="--i:6"><img src="./images/gallery/jo6.jpg" alt=""></span>
+            <span style="--i:7"><img src="./images/gallery/jo7.jpg" alt=""></span>
+            <span style="--i:8"><img src="./images/gallery/jo8.jpg" alt=""></span>
+            <span style="--i:9"><img src="./images/gallery/jo9.jpg" alt=""></span>
+            <span style="--i:10"><img src="./images/gallery/jo10.jpg" alt=""></span>
+            <span style="--i:11"><img src="./images/gallery/jo11.jpg" alt=""></span>
+            <span style="--i:12"><img src="./images/gallery/jo12.jpg" alt=""></span>
+            <span style="--i:13"><img src="./images/gallery/jo13.jpg" alt=""></span>
+            <span style="--i:14"><img src="./images/gallery/jo14.jpg" alt=""></span>
+            <span style="--i:15"><img src="./images/gallery/jo19.jpg" alt=""></span>
+            <span style="--i:16"><img src="./images/gallery/jo16.jpg" alt=""></span>
+            <span style="--i:17"><img src="./images/gallery/jo17.jpg" alt=""></span>
+            <span style="--i:18"><img src="./images/gallery/jo18.jpg" alt=""></span>
+            <span style="--i:19"><img src="./images/gallery/jo20.jpg" alt=""></span>
+            <span style="--i:20"><img src="./images/gallery/jo22.jpg" alt=""></span>
+            <span style="--i:20"><img src="./images/gallery/jo21.jpg" alt=""></span>
+        </div>
+    </div>
+    <script>
+        function togglemenu(){
+            const menu = document.querySelector('.menu');
+            const navbar = document.getElementById('navbar');
+            menu.classList.toggle('active');
+            navbar.classList.toggle('active');
+
+        }
+    </script>
+    </body>
+</html>
